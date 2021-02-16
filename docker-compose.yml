@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  # db_postgres:
+  #   image: postgres:11.7
+  #   environment:
+  #     POSTGRES_USER: root
+  #     POSTGRES_PASSWORD: supersecret
+  #     POSTGRES_DB: test
+  #   ports:
+  #     - "3306:3306"
+  #   restart: always
+
+  # db_mysql_with_db_script:
+  #   build: ./db
+  #   ports:
+  #     - "3306:3306"
+  #   environment:
+  #     MYSQL_DATABASE: root
+  #     MYSQL_ROOT_PASSWORD: supersecret
+  #     MYSQL_PASSWORD: supersecret
+  #     MYSQL_USER: mysql
+
+  # db_mysql:
+  #   image: mysql:5.7
+  #   ports:
+  #     - "3306:3306"
+  #   environment:
+  #     MYSQL_DATABASE: root
+  #     MYSQL_ROOT_PASSWORD: supersecret
+  #     MYSQL_PASSWORD: supersecret
+  #     MYSQL_USER: mysql
+
+  # db_mongo:
+  #   image: mongo:latest
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: root
+  #     MONGO_INITDB_ROOT_PASSWORD: root
+  #   ports:
+  #     - "27017:27017"
