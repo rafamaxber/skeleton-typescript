@@ -6,7 +6,6 @@
 - [x] Husky
 - [x] Jest
 - [x] Lint-staged
-- [x] Module-alias
 - [x] Typescript
 - [x] Docker Compose
   - Database
