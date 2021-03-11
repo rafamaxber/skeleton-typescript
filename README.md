@@ -2,7 +2,7 @@
 
 - [x] Eslint
 - [x] Eslint-config-standard-with-typescript
-- [x] Git-commit-msg-linter
+- [x] Commitlint
 - [x] Husky
 - [x] Jest
 - [x] Lint-staged
