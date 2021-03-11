@@ -4,9 +4,5 @@
   "testEnvironment": "node",
   "bail": true,
   "verbose": true,
-  "collectCoverageFrom": ["./src/**/*.ts"],
-  "moduleNameMapper": {
-    "@/tests/(.*)": "<rootDir>/tests/$1",
-    "@/(.*)": "<rootDir>/src/$1"
-  }
+  "collectCoverageFrom": ["./src/**/*.ts"]
 }
