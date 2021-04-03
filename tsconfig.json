@@ -24,5 +24,9 @@
       "@infra/*": ["infra/*"],
       "@utils/*": ["utils/*"]
     }
-  }
+  },
+  "exclude": [
+    "jest.config.js",
+    "commitlint.config.js"
+  ]
 }
