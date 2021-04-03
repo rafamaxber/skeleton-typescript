@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development ts-node-dev src/index.ts",
-    "start": "NODE_ENV=production node ./dist/index.js",
+    "dev": "NODE_ENV=development tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+    "start": "NODE_ENV=production node dist/src/index.js",
     "build": "NODE_ENV=production rimraf dist && tsc",
     "test": "jest --passWithNoTests",
     "test:staged": "jest --passWithNoTests",
@@ -24,6 +24,7 @@
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
     "@types/jest": "^26.0.20",
+    "@types/module-alias": "^2.0.0",
     "@types/node": "^14.14.28",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "eslint": "^7.20.0",
@@ -39,5 +40,8 @@
   },
   "engines": {
     "node": "14.x"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
   }
 }

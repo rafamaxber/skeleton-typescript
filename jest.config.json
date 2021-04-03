@@ -1,8 +1,0 @@
-{
-  "preset": "ts-jest",
-  "clearMocks": true,
-  "testEnvironment": "node",
-  "bail": true,
-  "verbose": true,
-  "collectCoverageFrom": ["./src/**/*.ts"]
-}
