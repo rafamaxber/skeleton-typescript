@@ -25,8 +25,5 @@
       "@utils/*": ["utils/*"]
     }
   },
-  "exclude": [
-    "jest.config.js",
-    "commitlint.config.js"
-  ]
+  "exclude": ["jest.config.js", "commitlint.config.js"]
 }
