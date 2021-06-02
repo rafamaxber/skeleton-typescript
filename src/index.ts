@@ -1,4 +1,4 @@
-import '../src/config/module-aliases';
+import './config/module-aliases'
 
 import { sum } from '@main/sum'
 
