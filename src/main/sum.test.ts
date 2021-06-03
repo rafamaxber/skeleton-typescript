@@ -1,4 +1,4 @@
-import { sum } from '@main/sum'
+import { sum } from '@/main/sum'
 
 describe('Simple Test', () => {
   it('should sum', () => {

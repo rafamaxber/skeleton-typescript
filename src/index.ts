@@ -1,5 +1,4 @@
 import './config/module-aliases'
+import { sum } from '@/main/sum'
 
-import { sum } from '@main/sum'
-
-console.log(sum(10) + sum(101))
+console.log(Number(sum(10)) + Number(sum(101)))

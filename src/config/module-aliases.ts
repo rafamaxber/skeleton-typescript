@@ -4,10 +4,10 @@ import { resolve } from 'path'
 const BASE_URL = process.env.NODE_ENV === 'production' ? './dist' : './src'
 
 addAliases({
-  '@domain': resolve(`${BASE_URL}/domain`),
-  '@presentation': resolve(`${BASE_URL}/presentation`),
-  '@infra': resolve(`${BASE_URL}/infra`),
-  '@data': resolve(`${BASE_URL}/data`),
-  '@main': resolve(`${BASE_URL}/main`),
-  '@utils': resolve(`${BASE_URL}/utils`)
+  '@/domain': resolve(`${BASE_URL}/domain`),
+  '@/presentation': resolve(`${BASE_URL}/presentation`),
+  '@/infra': resolve(`${BASE_URL}/infra`),
+  '@/data': resolve(`${BASE_URL}/data`),
+  '@/main': resolve(`${BASE_URL}/main`),
+  '@/utils': resolve(`${BASE_URL}/utils`)
 })

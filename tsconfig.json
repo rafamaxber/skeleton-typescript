@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "module": "commonjs",
+    "module": "CommonJS",
+    "lib": ["es6", "dom"],
     "allowJs": true,
     "sourceMap": true,
     "outDir": "./dist",
@@ -15,14 +16,10 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": "./src",
+    "rootDir": "src",
+    "baseUrl": "src",
     "paths": {
-      "@main/*": ["main/*"],
-      "@presentation/*": ["presentation/*"],
-      "@domain/*": ["domain/*"],
-      "@data/*": ["data/*"],
-      "@infra/*": ["infra/*"],
-      "@utils/*": ["utils/*"]
+      "@/*": ["*"]
     }
   },
   "exclude": ["jest.config.js", "commitlint.config.js"]
